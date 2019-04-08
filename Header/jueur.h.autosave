@@ -1,0 +1,14 @@
+#ifndef JUEUR_H
+#define JUEUR_H
+#include Grille.h
+ class Jueur{
+ private:
+     Grille grilleJeu;
+ public:
+      void choixCase();
+     
+      
+    
+};
+
+#endif // JUEUR_H
