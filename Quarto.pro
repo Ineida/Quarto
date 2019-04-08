@@ -25,25 +25,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        quarto.cpp \
-    ../NetBeansProjects/CppApplication_1/Grille.cpp \
-    ../NetBeansProjects/CppApplication_1/Pion.cpp \
-    Grille.cpp \
-    main.cpp \
-    Pion.cpp \
-    IAbrutale.cpp
+        sources/main.cpp \
+        sources/quarto.cpp \
+    sources/Grille.cpp \
+    sources/main.cpp \
+    sources/Pion.cpp \
+    sources/IAbrutale.cpp
 
 HEADERS += \
-        quarto.h \
-    ../NetBeansProjects/CppApplication_1/Grille.h \
-    ../NetBeansProjects/CppApplication_1/Pion.h \
-    Grille.h \
-    Pion.h \
-    jeu.h \
-    IAbrutale.h \
-    IAoptimisee.h \
-    Joueur.h
+        Header/quarto.h \
+    Header/Grille.h \
+    Header/Pion.h \
+    Header/jeu.h \
+    Header/IAbrutale.h \
+    Header/IAoptimisee.h \
+    Header/Joueur.h
 
 FORMS += \
         quarto.ui

@@ -1,4 +1,4 @@
-#include "quarto.h"
+#include "Header/quarto.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

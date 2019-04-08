@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-#include "Grille.h"
-#include "Pion.h"
+#include "Header/Grille.h"
+#include "Header/Pion.h"
 #include "stdlib.h"
 
 //#define NULL ((void*)0)
