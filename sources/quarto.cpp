@@ -1,4 +1,4 @@
-#include "sources/quarto.h"
+#include "Header/quarto.h"
 #include "ui_quarto.h"
 
 Quarto::Quarto(QWidget *parent) :

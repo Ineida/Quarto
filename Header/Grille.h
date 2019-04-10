@@ -22,12 +22,18 @@ private:
     Pion reserve;
     
 public:
+    //constructeur
     Grille();
+    //getteurs et setteurs
     Pion** laGrille() const;
     void setXY(int x, int y);
+    //autres methodes
     bool estVide(int x, int y);
     Pion reserver(Pion);
-    
+    bool gagner();
+    bool gagnerLigne(int i);
+    bool gagnerColonne(int i);
+    bool gagnerDiagonal();
 };
 
 
