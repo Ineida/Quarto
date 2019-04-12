@@ -370,6 +370,10 @@ Pion Grille::getReserve(){return this->reserve;}
        return gagner;
    }
    
+   
+   
+   
+   
    int main(int argc,char* argv[]){
        Grille g= Grille();
        g.setXY(1,1,Pion(true,true,true,true));

@@ -25,12 +25,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        sources/main.cpp \
         sources/quarto.cpp \
     sources/Grille.cpp \
-    sources/main.cpp \
     sources/Pion.cpp \
-    sources/IAbrutale.cpp
+    sources/IAbrutale.cpp \
+    sources/Joueur.cpp
 
 HEADERS += \
         Header/quarto.h \

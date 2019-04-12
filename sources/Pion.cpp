@@ -38,6 +38,10 @@ Pion::Pion(bool carree, bool grand,bool claire, bool troue){
  */
 Pion::Pion(){
     this->estNull=true;
+    this->carree=false;
+    this->grand=false;
+    this->claire=false;
+    this->troue=false;
 }
 
 /*
@@ -98,12 +102,5 @@ bool Pion::sontEgaux(Pion p2){
 /*
  * 
  */
-int main(int argv, char** argc) {
 
-    Pion p(true,true,true,true);
-    Pion pe(true,false,false,true);
-    return p.sontEgaux(pe);
-    
-
-}
 

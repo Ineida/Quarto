@@ -7,9 +7,10 @@
      int adversaire; // impaire joueur, paire un IA
      int niveau;
  public:
-     // contructeur
+     // contructeurs
      Joueur();
-     Joueur(int niveau);
+     Joueur(int adversaire);
+     Joueur(int niveau, int adversaire);
      //getteurs et setteurs
       void setGrille(Grille grille);
       Grille getGrille();

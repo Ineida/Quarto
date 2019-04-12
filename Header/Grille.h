@@ -27,13 +27,25 @@ public:
     //getteurs et setteurs
     Pion** laGrille() const;
     void setXY(int x, int y);
+    Pion getXY(int x, int y);
+    void setXY(int x, int y,Pion valeur);
     //autres methodes
     bool estVide(int x, int y);
     Pion reserver(Pion);
+    Pion getReserve();
     bool gagner();
+    bool grandEnLigne(int i);
+    bool claireEnLigne(int i);
+    bool carreeEnLigne(int i);
+    bool troueEnLigne(int i);
+    bool grandEnColonne(int i);
+    bool claireEnColonne(int i);
+    bool carreeEnColonne(int i);
+    bool troueEnColonne(int i);
     bool gagnerLigne(int i);
     bool gagnerColonne(int i);
     bool gagnerDiagonal();
+
 };
 
 

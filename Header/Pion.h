@@ -22,9 +22,8 @@ private:
     bool estNull;
     
 public:
-    Pion(bool claire, bool grand, bool carree, bool troue, bool estNull);
-    Pion(bool claire, bool grand, bool carree, bool troue);
-    Pion(bool estNull);
+    Pion(bool carree, bool grand,bool claire, bool troue, bool estNull);
+    Pion(bool carree, bool grand,bool claire, bool troue);
     Pion();
     bool estCarree();
     bool estGrand();
