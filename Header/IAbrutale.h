@@ -6,11 +6,10 @@ class IAbrutale
 {
 
     private:
-        Joueur joueur;
         Grille grille;
     public:
         //constructeur
-        IAbrutale(Joueur j, Grille grille);
+        IAbrutale( Grille grille);
         //getteurs et setteurs
         Joueur getJoueur();
         Grille getGrille();

@@ -82,6 +82,9 @@ using namespace std;
       return resultat;
   }
   Pion Grille::getXY(int x, int y){return grille[x][y];};
+
+  Pion** Grille::getListePionDispo(){return this->listePionDispo;}
+
   /**
  * @brief Grille::getReserve
  * @return le pion reserve (choisit pour joueur)
@@ -369,6 +372,10 @@ Pion Grille::getReserve(){return this->reserve;}
        if(gagnerDiagonal()){gagner=true;}
        return gagner;
    }
+   
+   
+   
+   
    
    int main(int argc,char* argv[]){
        Grille g= Grille();

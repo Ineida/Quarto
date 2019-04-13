@@ -28,6 +28,7 @@ public:
     Pion** laGrille() const;
     void setXY(int x, int y);
     Pion getXY(int x, int y);
+    Pion** getListePionDispo();
     void setXY(int x, int y,Pion valeur);
     //autres methodes
     bool estVide(int x, int y);

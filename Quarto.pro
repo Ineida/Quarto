@@ -38,7 +38,8 @@ HEADERS += \
     Header/jeu.h \
     Header/IAbrutale.h \
     Header/IAoptimisee.h \
-    Header/Joueur.h
+    Header/Joueur.h \
+    Header/Graphegrille.h
 
 FORMS += \
         quarto.ui
